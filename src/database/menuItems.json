@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "url": "/"
+    },
+    {
+        "name": "Pages",
+        "url": "#"
+    },
+    {
+        "name": "Blog",
+        "url": "#"
+    },
+    {
+        "name": "ShortCode",
+        "url": "#"
+    },
+    {
+        "name": "Portfolio",
+        "url": "#"
+    }
+]

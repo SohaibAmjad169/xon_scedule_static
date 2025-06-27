@@ -1,0 +1,462 @@
+[
+    {
+        "prompt": "Hi! Please book a haircut service for 27 October, 2023 at 8:30 am - 9:30 am. You can contact via chris.doe119@example.com. The appointment is for Chris Doe, located in Houston, at 789 Oak Lane, 92594. Payment will be handled via Chris Doe, card 6712066374184715, expires 12/28, CVV 132.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Chris Doe",
+                "email": "chris.doe119@example.com",
+                "address": "789 Oak Lane",
+                "city": "Houston",
+                "zip": "92594"
+            },
+            "bookingDetails": {
+                "selectedDate": "27-10-2023",
+                "selectedTime": "8:30 am - 9:30 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Chris Doe",
+                "cardNumber": "6712066374184715",
+                "expiryDate": "12/28",
+                "cvv": "132"
+            }
+        }
+    },
+    {
+        "prompt": "Hello! I'd like to book a haircut on 14 January, 2024 at 4:00 pm - 5:00 pm. Contact at robert.johnson928@mail.com. Booking for Robert Johnson, currently in Chicago, residing at 101 Pine Drive, 78887. Payment with Robert Johnson, card 4387066800106061, exp 02/27, CVV 634.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Robert Johnson",
+                "email": "robert.johnson928@mail.com",
+                "address": "101 Pine Drive",
+                "city": "Chicago",
+                "zip": "78887"
+            },
+            "bookingDetails": {
+                "selectedDate": "14-01-2024",
+                "selectedTime": "4:00 pm - 5:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Robert Johnson",
+                "cardNumber": "4387066800106061",
+                "expiryDate": "02/27",
+                "cvv": "634"
+            }
+        }
+    },
+    {
+        "prompt": "I'd like to schedule a haircut for 23 March, 2028 at 10:00 am - 11:00 am. Contact: robert.brown207@example.com. This appointment is under Robert Brown, from Los Angeles, at 101 Pine Drive, 22849. Payment via Robert Brown, card 3658004037011407, expiring 02/23, CVV 464.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Robert Brown",
+                "email": "robert.brown207@example.com",
+                "address": "101 Pine Drive",
+                "city": "Los Angeles",
+                "zip": "22849"
+            },
+            "bookingDetails": {
+                "selectedDate": "23-03-2028",
+                "selectedTime": "10:00 am - 11:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Robert Brown",
+                "cardNumber": "3658004037011407",
+                "expiryDate": "02/23",
+                "cvv": "464"
+            }
+        }
+    },
+    {
+        "prompt": "Hey there! I need a haircut scheduled for 19 November, 2025 at 3:00 pm - 4:00 pm. Email: robert.harris961@randommail.com. This is for Robert Harris, from New York, at 456 Maple Avenue, 55380. Payment details: Robert Harris, card 2821925922337517, expiry 02/26, CVV 876.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Robert Harris",
+                "email": "robert.harris961@randommail.com",
+                "address": "456 Maple Avenue",
+                "city": "New York",
+                "zip": "55380"
+            },
+            "bookingDetails": {
+                "selectedDate": "19-11-2025",
+                "selectedTime": "3:00 pm - 4:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Robert Harris",
+                "cardNumber": "2821925922337517",
+                "expiryDate": "02/26",
+                "cvv": "876"
+            }
+        }
+    },
+    {
+        "prompt": "Hi, I'd like to schedule a haircut on 13 December, 2027 at 9:00 am - 10:00 am. You can reach me at olivia.anderson583@example.com. I am Olivia Anderson from Phoenix, residing at 202 Cedar Road, 36384. Payment will be handled using Olivia Anderson, card 8566067805577621, expiring 12/26, CVV 404.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Olivia Anderson",
+                "email": "olivia.anderson583@example.com",
+                "address": "202 Cedar Road",
+                "city": "Phoenix",
+                "zip": "36384"
+            },
+            "bookingDetails": {
+                "selectedDate": "13-12-2027",
+                "selectedTime": "9:00 am - 10:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Olivia Anderson",
+                "cardNumber": "8566067805577621",
+                "expiryDate": "12/26",
+                "cvv": "404"
+            }
+        }
+    },
+    {
+        "prompt": "Hey there! I need a haircut scheduled for 24 July, 2030 at 9:00 am - 10:00 am. Email: john.smith871@mail.com. This is for John Smith, from Phoenix, at 101 Pine Drive, 65836. Payment details: John Smith, card 6779648386256744, expiry 05/30, CVV 588.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John Smith",
+                "email": "john.smith871@mail.com",
+                "address": "101 Pine Drive",
+                "city": "Phoenix",
+                "zip": "65836"
+            },
+            "bookingDetails": {
+                "selectedDate": "24-07-2030",
+                "selectedTime": "9:00 am - 10:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John Smith",
+                "cardNumber": "6779648386256744",
+                "expiryDate": "05/30",
+                "cvv": "588"
+            }
+        }
+    },
+    {
+        "prompt": "Hey there! I need a haircut scheduled for 29 December, 2029 at 10:00 am - 11:00 am. Email: james.taylor229@mail.com. This is for James Taylor, from Chicago, at 202 Cedar Road, 80135. Payment details: James Taylor, card 0116367194348570, expiry 02/29, CVV 984.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "James Taylor",
+                "email": "james.taylor229@mail.com",
+                "address": "202 Cedar Road",
+                "city": "Chicago",
+                "zip": "80135"
+            },
+            "bookingDetails": {
+                "selectedDate": "29-12-2029",
+                "selectedTime": "10:00 am - 11:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "James Taylor",
+                "cardNumber": "0116367194348570",
+                "expiryDate": "02/29",
+                "cvv": "984"
+            }
+        }
+    },
+    {
+        "prompt": "Hi, I need an appointment on 21 March, 2027 at 12:00 pm - 1:00 pm. Please contact at chris.harris972@test.com. Scheduled under Chris Harris, from Phoenix, currently staying at 456 Maple Avenue, 18155. Payment processed via Chris Harris, card 1565282798419639, expires 02/29, CVV 103.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Chris Harris",
+                "email": "chris.harris972@test.com",
+                "address": "456 Maple Avenue",
+                "city": "Phoenix",
+                "zip": "18155"
+            },
+            "bookingDetails": {
+                "selectedDate": "21-03-2027",
+                "selectedTime": "12:00 pm - 1:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Chris Harris",
+                "cardNumber": "1565282798419639",
+                "expiryDate": "02/29",
+                "cvv": "103"
+            }
+        }
+    },
+    {
+        "prompt": "Hey, I need an appointment for a haircut on 31 December, 2023 at 9:00 am - 10:00 am. Please reach out at emily.thomas221@mail.com. Booking for Emily Thomas, staying in Phoenix, at 123 Elm Street, 19273. Payment will be via Emily Thomas, card 3036746033398693, expiring 12/23, CVV 400.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Emily Thomas",
+                "email": "emily.thomas221@mail.com",
+                "address": "123 Elm Street",
+                "city": "Phoenix",
+                "zip": "19273"
+            },
+            "bookingDetails": {
+                "selectedDate": "31-12-2023",
+                "selectedTime": "9:00 am - 10:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Emily Thomas",
+                "cardNumber": "3036746033398693",
+                "expiryDate": "12/23",
+                "cvv": "400"
+            }
+        }
+    },
+    {
+        "prompt": "I'd like to request a haircut appointment on 20 August, 2024 at 4:00 pm - 5:00 pm. Contact via john.smith711@mail.com. Name: John Smith, based in Houston, at 101 Pine Drive, 84960. Payment method: John Smith, card 9914019025757420, expiring 03/23, CVV 204.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John Smith",
+                "email": "john.smith711@mail.com",
+                "address": "101 Pine Drive",
+                "city": "Houston",
+                "zip": "84960"
+            },
+            "bookingDetails": {
+                "selectedDate": "20-08-2024",
+                "selectedTime": "4:00 pm - 5:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John Smith",
+                "cardNumber": "9914019025757420",
+                "expiryDate": "03/23",
+                "cvv": "204"
+            }
+        }
+    },
+    {
+        "prompt": "Hey, I need an appointment for a haircut on 17 November, 2029 at 10:00 am - 11:00 am. Please reach out at sarah.white107@test.com. Booking for Sarah White, staying in Los Angeles, at 123 Elm Street, 29626. Payment will be via Sarah White, card 8972230368194626, expiring 12/27, CVV 685.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Sarah White",
+                "email": "sarah.white107@test.com",
+                "address": "123 Elm Street",
+                "city": "Los Angeles",
+                "zip": "29626"
+            },
+            "bookingDetails": {
+                "selectedDate": "17-11-2029",
+                "selectedTime": "10:00 am - 11:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Sarah White",
+                "cardNumber": "8972230368194626",
+                "expiryDate": "12/27",
+                "cvv": "685"
+            }
+        }
+    },
+    {
+        "prompt": "I'd like to book a service for 09 October, 2027 at 3:30 pm - 4:30 pm. Contact at emily.taylor534@randommail.com. Reserved under Emily Taylor, from Chicago, address 123 Elm Street, 54797. Payment method: Emily Taylor, card 4091759646987197, expires 06/26, CVV 436.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Emily Taylor",
+                "email": "emily.taylor534@randommail.com",
+                "address": "123 Elm Street",
+                "city": "Chicago",
+                "zip": "54797"
+            },
+            "bookingDetails": {
+                "selectedDate": "09-10-2027",
+                "selectedTime": "3:30 pm - 4:30 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Emily Taylor",
+                "cardNumber": "4091759646987197",
+                "expiryDate": "06/26",
+                "cvv": "436"
+            }
+        }
+    },
+    {
+        "prompt": "Hi, I need an appointment on 16 June, 2023 at 2:30 pm - 3:30 pm. Please contact at john.thomas527@randommail.com. Scheduled under John Thomas, from Houston, currently staying at 202 Cedar Road, 17063. Payment processed via John Thomas, card 1796500170438888, expires 06/28, CVV 808.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John Thomas",
+                "email": "john.thomas527@randommail.com",
+                "address": "202 Cedar Road",
+                "city": "Houston",
+                "zip": "17063"
+            },
+            "bookingDetails": {
+                "selectedDate": "16-06-2023",
+                "selectedTime": "2:30 pm - 3:30 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John Thomas",
+                "cardNumber": "1796500170438888",
+                "expiryDate": "06/28",
+                "cvv": "808"
+            }
+        }
+    },
+    {
+        "prompt": "I'd like to arrange a haircut appointment for 08 August, 2026 at 4:00 pm - 5:00 pm. You can reach me at john.white718@mail.com. The reservation is for John White, currently staying in Los Angeles, at 456 Maple Avenue, 93314. Payment using John White, card 6420531605417055, expiry 09/25, CVV 866.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John White",
+                "email": "john.white718@mail.com",
+                "address": "456 Maple Avenue",
+                "city": "Los Angeles",
+                "zip": "93314"
+            },
+            "bookingDetails": {
+                "selectedDate": "08-08-2026",
+                "selectedTime": "4:00 pm - 5:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John White",
+                "cardNumber": "6420531605417055",
+                "expiryDate": "09/25",
+                "cvv": "866"
+            }
+        }
+    },
+    {
+        "prompt": "Hello! I'd like a haircut service on 06 November, 2026 at 12:00 pm - 1:00 pm. You can reach me via chris.johnson624@example.com. Reserved for Chris Johnson, in Phoenix, at 456 Maple Avenue, 90294. Payment through Chris Johnson, card 2682619564106363, expiry 11/29, CVV 912.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Chris Johnson",
+                "email": "chris.johnson624@example.com",
+                "address": "456 Maple Avenue",
+                "city": "Phoenix",
+                "zip": "90294"
+            },
+            "bookingDetails": {
+                "selectedDate": "06-11-2026",
+                "selectedTime": "12:00 pm - 1:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Chris Johnson",
+                "cardNumber": "2682619564106363",
+                "expiryDate": "11/29",
+                "cvv": "912"
+            }
+        }
+    },
+    {
+        "prompt": "Hi! Can you book a haircut service for 26 December, 2023 at 1:00 pm - 2:00 pm? Contact at chris.jackson488@test.com. The booking is under Chris Jackson, residing in Phoenix, address 456 Maple Avenue, 41471. Payment method: Chris Jackson, card 2208106325898165, expiring 09/27, CVV 137.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Chris Jackson",
+                "email": "chris.jackson488@test.com",
+                "address": "456 Maple Avenue",
+                "city": "Phoenix",
+                "zip": "41471"
+            },
+            "bookingDetails": {
+                "selectedDate": "26-12-2023",
+                "selectedTime": "1:00 pm - 2:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Chris Jackson",
+                "cardNumber": "2208106325898165",
+                "expiryDate": "09/27",
+                "cvv": "137"
+            }
+        }
+    },
+    {
+        "prompt": "Hello! I'd like a haircut service on 11 June, 2023 at 10:00 am - 11:00 am. You can reach me via john.thomas285@example.com. Reserved for John Thomas, in Chicago, at 456 Maple Avenue, 34318. Payment through John Thomas, card 0874025203247376, expiry 09/30, CVV 992.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John Thomas",
+                "email": "john.thomas285@example.com",
+                "address": "456 Maple Avenue",
+                "city": "Chicago",
+                "zip": "34318"
+            },
+            "bookingDetails": {
+                "selectedDate": "11-06-2023",
+                "selectedTime": "10:00 am - 11:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John Thomas",
+                "cardNumber": "0874025203247376",
+                "expiryDate": "09/30",
+                "cvv": "992"
+            }
+        }
+    },
+    {
+        "prompt": "Hi, I need an appointment on 11 February, 2029 at 8:00 am - 9:00 am. Please contact at olivia.jackson341@mail.com. Scheduled under Olivia Jackson, from Houston, currently staying at 101 Pine Drive, 84148. Payment processed via Olivia Jackson, card 0621320248651630, expires 04/30, CVV 947.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Olivia Jackson",
+                "email": "olivia.jackson341@mail.com",
+                "address": "101 Pine Drive",
+                "city": "Houston",
+                "zip": "84148"
+            },
+            "bookingDetails": {
+                "selectedDate": "11-02-2029",
+                "selectedTime": "8:00 am - 9:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Olivia Jackson",
+                "cardNumber": "0621320248651630",
+                "expiryDate": "04/30",
+                "cvv": "947"
+            }
+        }
+    },
+    {
+        "prompt": "Hi! Can you book a haircut service for 07 June, 2024 at 11:00 am - 12:00 pm? Contact at john.doe262@test.com. The booking is under John Doe, residing in Phoenix, address 101 Pine Drive, 95108. Payment method: John Doe, card 9475912255838514, expiring 02/28, CVV 482.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "John Doe",
+                "email": "john.doe262@test.com",
+                "address": "101 Pine Drive",
+                "city": "Phoenix",
+                "zip": "95108"
+            },
+            "bookingDetails": {
+                "selectedDate": "07-06-2024",
+                "selectedTime": "11:00 am - 12:00 pm",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "John Doe",
+                "cardNumber": "9475912255838514",
+                "expiryDate": "02/28",
+                "cvv": "482"
+            }
+        }
+    },
+    {
+        "prompt": "Hello! I'd like a haircut service on 24 February, 2030 at 9:00 am - 10:00 am. You can reach me via michael.smith720@test.com. Reserved for Michael Smith, in Houston, at 456 Maple Avenue, 18871. Payment through Michael Smith, card 6783198886433413, expiry 05/28, CVV 612.",
+        "bookingResults": {
+            "userDetails": {
+                "name": "Michael Smith",
+                "email": "michael.smith720@test.com",
+                "address": "456 Maple Avenue",
+                "city": "Houston",
+                "zip": "18871"
+            },
+            "bookingDetails": {
+                "selectedDate": "24-02-2030",
+                "selectedTime": "9:00 am - 10:00 am",
+                "serviceFee": 200
+            },
+            "paymentDetails": {
+                "NameOnCard": "Michael Smith",
+                "cardNumber": "6783198886433413",
+                "expiryDate": "05/28",
+                "cvv": "612"
+            }
+        }
+    }
+]
