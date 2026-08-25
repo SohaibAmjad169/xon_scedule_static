@@ -32,8 +32,6 @@ const Calendar = () => {
 
   const handleDateClick = (day) => {
     if (day >= currentDay) {
-      const formattedDate = new Date(currentYear, currentMonth, day);
-
       const formattedDateString = `${String(day).padStart(2, "0")}-${String(
         currentMonth + 1
       ).padStart(2, "0")}-${currentYear}`;

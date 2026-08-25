@@ -65,10 +65,10 @@ const OurService = () => {
                 {/* Right Side - Two Images */}
                 <div className="w-full md:w-1/2 p-4 flex space-x-4">
                     <div className="w-full md:w-1/2 mb-4 md:mb-0">
-                        <img src="/images/h5-img-5.jpg" alt="Image 1" className="w-full h-auto object-cover" />
+                        <img src="/images/h5-img-5.jpg" alt="Barbershop styling 1" className="w-full h-auto object-cover" />
                     </div>
                     <div className="w-full md:w-1/2">
-                        <img src="/images/h5-img-6.jpg" alt="Image 2" className="w-full h-auto object-cover" />
+                        <img src="/images/h5-img-6.jpg" alt="Barbershop styling 2" className="w-full h-auto object-cover" />
                     </div>
                 </div>
             </div>

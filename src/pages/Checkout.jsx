@@ -13,7 +13,7 @@ import {
   CardContent,
 } from "@mui/material";
 import toast, { Toaster } from "react-hot-toast";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import validationSchemas from "../utils/validationSchema";
 import { useLocation, useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
@@ -184,7 +184,6 @@ const FormStep = ({ fields, validationSchema, onSubmit, onBack, price, isPayment
 
 const Confirmation = ({ selectedDate, selectedTime, prices }) => {
   const { formData, prevStep, setFormData } = useContext(FormContext);
-  const dispatch = useDispatch();
   const { loading } = useSelector((state) => state.booking);
   const navigate = useNavigate();
 
@@ -375,7 +374,7 @@ const MultiStepForm = () => {
     }
   }, []);
 
-  const [price, setPrice] = useState(() => {
+  const [price] = useState(() => {
     const savedBookingInfo = JSON.parse(localStorage.getItem("currentBookingInfo"));
     return savedBookingInfo?.bookingDetails?.serviceFee || getRandomPrice([200, 200, 200]);
   });

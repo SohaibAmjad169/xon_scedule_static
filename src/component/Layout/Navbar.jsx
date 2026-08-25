@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Menu } from "@headlessui/react";
 import { Link, useLocation } from "react-router-dom";
 import menuItems from "../../database/menuItems.json";
@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isTransparent, setIsTransparent] = useState(true);
     const location = useLocation();
 
-    const handleScroll = () => {
+    const handleScroll = useCallback(() => {
         if (location.pathname === "/") {
             if (window.scrollY > 100) {
                 setIsTransparent(false);
@@ -15,9 +15,8 @@ const Navbar = () => {
                 setIsTransparent(true);
             }
         }
-    };
+    }, [location.pathname]);
 
-    // eslint-disable-next-line
     useEffect(() => {
         setIsTransparent(location.pathname === "/");
 
@@ -28,7 +27,7 @@ const Navbar = () => {
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
-    }, [location.pathname]);
+    }, [location.pathname, handleScroll]);
 
     return (
         <nav
@@ -44,6 +43,7 @@ const Navbar = () => {
                         <img
                             src={isTransparent ? "/images/logo-dark-1.png" : "/images/logo.png"}
                             className="h-6 w-auto object-contain"
+                            alt="Logo"
                         />
 
                     </Link>
